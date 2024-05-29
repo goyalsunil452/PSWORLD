@@ -5,10 +5,7 @@ import "./index.scss";
 
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
-    <div>Name: shell</div>
-    <div>Framework: react</div>
-    <div>Language: JavaScript</div>
-    <div>CSS: Tailwind</div>
+    <div>Welcome to the PS WORLD</div>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
