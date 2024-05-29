@@ -39,7 +39,7 @@ To get started with the project, clone the repository and follow the setup instr
 git clone https://github.com/yourusername/ps-world.git
 
 # Navigate into the cloned repository directory
-cd ps-world
+cd psworld
 
 # Install all dependencies for the project, including dependencies for all sub-applications as specified by the workspace configuration in the main package.json
 npm install
