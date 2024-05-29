@@ -5,11 +5,13 @@
   "main": "index.js",
   "workspaces": [
     "shell",
+    "pschat",
     "common-services"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:shell":"cd shell && npm start"
+    "start:shell":"cd shell && npm start",
+    "start:pschat":"cd pschat && npm start"
   },
   "author": "",
   "license": "ISC"
