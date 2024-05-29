@@ -4,12 +4,12 @@
   "description": "Certainly! Here's a comprehensive description for the PS World GitHub repository:",
   "main": "index.js",
   "workspaces": [
-    "shell"
+    "shell",
+    "common-services"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:shell":"cd shell && npm start", 
-    "install:all": "npm run install:shell"
+    "start:shell":"cd shell && npm start"
   },
   "author": "",
   "license": "ISC"
