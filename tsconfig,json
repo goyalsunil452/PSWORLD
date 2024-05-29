@@ -1,0 +1,35 @@
+{
+  "compileOnSave": true,
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@common-services": [
+        "dist/common-services",
+        "common-services/src/public-api.ts"
+      ]
+    },
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "noImplicitAny": false,
+    "target": "es2015",
+    "module": "es2020",
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "resolveJsonModule": true
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "preserveWhitespaces": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

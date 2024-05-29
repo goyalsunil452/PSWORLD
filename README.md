@@ -35,10 +35,17 @@ Welcome to the PS World GitHub repository! This project is dedicated to creating
 To get started with the project, clone the repository and follow the setup instructions provided in the README file. Make sure you have all the necessary dependencies installed to run the application smoothly.
 
 ```bash
+# Clone the PS World repository from GitHub
 git clone https://github.com/yourusername/ps-world.git
+
+# Navigate into the cloned repository directory
 cd ps-world
+
+# Install all dependencies for the project, including dependencies for all sub-applications as specified by the workspace configuration in the main package.json
 npm install
-npm start
+
+# To start the development server for the 'shell' application
+npm run start:shell
 ```
 
 ## Contribution
