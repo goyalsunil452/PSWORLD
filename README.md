@@ -48,6 +48,16 @@ npm install
 npm run start:shell
 ```
 
+## Documentations
+
+**Workspaces Configuration**
+The workspaces configuration in the package.json file is used to manage and install dependencies for multiple sub-applications within a single repository. This allows for efficient dependency management and script execution across these sub-applications (Centralized Dependency Management).
+```bash
+ "workspaces": [
+    "shell"
+  ],
+```
+
 ## Contribution
 
 We welcome contributions from the community! If you have any ideas, suggestions, or improvements, please feel free to open an issue or submit a pull request. Check out our contribution guidelines for more details.
