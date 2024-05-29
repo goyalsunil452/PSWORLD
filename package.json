@@ -5,13 +5,15 @@
   "main": "index.js",
   "workspaces": [
     "shell",
-    "pschat",
-    "common-services"
+    "pschat"
   ],
   "scripts": {
+    "install:all": "npm install --workspaces",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:shell":"cd shell && npm start",
-    "start:pschat":"cd pschat && npm start"
+    "start:shell-live":"cd shell && npm start:live",
+    "start:pschat":"cd pschat && npm start",
+    "start:pschat-live":"cd pschat && npm start:live"
   },
   "author": "",
   "license": "ISC"
